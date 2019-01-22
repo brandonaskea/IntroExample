@@ -18,7 +18,6 @@
 		897A6EDC21F6BF7D0072C976 /* CouchbaseLiteSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 897A6ECF21F59B1D0072C976 /* CouchbaseLiteSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		897A6EDE21F6D4BF0072C976 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EDD21F6D4BF0072C976 /* StringExtension.swift */; };
 		897A6EE021F6F4950072C976 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EDF21F6F4950072C976 /* Episode.swift */; };
-		897A6EE221F6FF090072C976 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EE121F6FF090072C976 /* DetailViewController.swift */; };
 		897A6EE421F7004B0072C976 /* BigBangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EE321F7004B0072C976 /* BigBangTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		897A6EDA21F6BEAA0072C976 /* BigBangSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigBangSearch-Bridging-Header.h"; sourceTree = "<group>"; };
 		897A6EDD21F6D4BF0072C976 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		897A6EDF21F6F4950072C976 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
-		897A6EE121F6FF090072C976 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		897A6EE321F7004B0072C976 /* BigBangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +101,6 @@
 			children = (
 				897A6EC121F54F200072C976 /* Main.storyboard */,
 				897A6EBF21F54F200072C976 /* ViewController.swift */,
-				897A6EE121F6FF090072C976 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -211,7 +208,6 @@
 				897A6EC021F54F200072C976 /* ViewController.swift in Sources */,
 				897A6EBE21F54F200072C976 /* AppDelegate.swift in Sources */,
 				897A6EE421F7004B0072C976 /* BigBangTableViewCell.swift in Sources */,
-				897A6EE221F6FF090072C976 /* DetailViewController.swift in Sources */,
 				897A6EE021F6F4950072C976 /* Episode.swift in Sources */,
 				897A6ED721F5B8F20072C976 /* DatabaseManager.swift in Sources */,
 			);

@@ -12,7 +12,28 @@
 		897A6EC321F54F200072C976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897A6EC121F54F200072C976 /* Main.storyboard */; };
 		897A6EC521F54F220072C976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A6EC421F54F220072C976 /* Assets.xcassets */; };
 		897A6EC821F54F220072C976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897A6EC621F54F220072C976 /* LaunchScreen.storyboard */; };
+		897A6ED021F59B1D0072C976 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897A6ECF21F59B1D0072C976 /* CouchbaseLiteSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		897A6ED721F5B8F20072C976 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6ED621F5B8F20072C976 /* DatabaseManager.swift */; };
+		897A6ED921F6BC890072C976 /* bigbang.json in Resources */ = {isa = PBXBuildFile; fileRef = 897A6ED821F6BC890072C976 /* bigbang.json */; };
+		897A6EDC21F6BF7D0072C976 /* CouchbaseLiteSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 897A6ECF21F59B1D0072C976 /* CouchbaseLiteSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		897A6EDE21F6D4BF0072C976 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EDD21F6D4BF0072C976 /* StringExtension.swift */; };
+		897A6EE021F6F4950072C976 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EDF21F6F4950072C976 /* Episode.swift */; };
+		897A6EE221F6FF090072C976 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EE121F6FF090072C976 /* DetailViewController.swift */; };
+		897A6EE421F7004B0072C976 /* BigBangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6EE321F7004B0072C976 /* BigBangTableViewCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		897A6EDB21F6BF690072C976 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				897A6EDC21F6BF7D0072C976 /* CouchbaseLiteSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		897A6EBA21F54F200072C976 /* IntroExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +43,14 @@
 		897A6EC421F54F220072C976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897A6EC721F54F220072C976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897A6EC921F54F220072C976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897A6ECF21F59B1D0072C976 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteSwift.framework; sourceTree = "<group>"; };
+		897A6ED621F5B8F20072C976 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		897A6ED821F6BC890072C976 /* bigbang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bigbang.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		897A6EDA21F6BEAA0072C976 /* BigBangSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigBangSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		897A6EDD21F6D4BF0072C976 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		897A6EDF21F6F4950072C976 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		897A6EE121F6FF090072C976 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		897A6EE321F7004B0072C976 /* BigBangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897A6ED021F59B1D0072C976 /* CouchbaseLiteSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +84,54 @@
 		897A6EBC21F54F200072C976 /* IntroExample */ = {
 			isa = PBXGroup;
 			children = (
-				897A6EBD21F54F200072C976 /* AppDelegate.swift */,
-				897A6EBF21F54F200072C976 /* ViewController.swift */,
-				897A6EC121F54F200072C976 /* Main.storyboard */,
+				897A6EDA21F6BEAA0072C976 /* BigBangSearch-Bridging-Header.h */,
+				897A6ECF21F59B1D0072C976 /* CouchbaseLiteSwift.framework */,
+				897A6ED221F5B2450072C976 /* AppDelegate */,
+				897A6ED421F5B2740072C976 /* Model */,
+				897A6ED521F5B28A0072C976 /* View */,
+				897A6ED121F5B2330072C976 /* Controller */,
 				897A6EC421F54F220072C976 /* Assets.xcassets */,
 				897A6EC621F54F220072C976 /* LaunchScreen.storyboard */,
 				897A6EC921F54F220072C976 /* Info.plist */,
+				897A6ED821F6BC890072C976 /* bigbang.json */,
 			);
 			path = IntroExample;
+			sourceTree = "<group>";
+		};
+		897A6ED121F5B2330072C976 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				897A6EC121F54F200072C976 /* Main.storyboard */,
+				897A6EBF21F54F200072C976 /* ViewController.swift */,
+				897A6EE121F6FF090072C976 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		897A6ED221F5B2450072C976 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				897A6EBD21F54F200072C976 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		897A6ED421F5B2740072C976 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				897A6ED621F5B8F20072C976 /* DatabaseManager.swift */,
+				897A6EDD21F6D4BF0072C976 /* StringExtension.swift */,
+				897A6EDF21F6F4950072C976 /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		897A6ED521F5B28A0072C976 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				897A6EE321F7004B0072C976 /* BigBangTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +144,7 @@
 				897A6EB621F54F200072C976 /* Sources */,
 				897A6EB721F54F200072C976 /* Frameworks */,
 				897A6EB821F54F200072C976 /* Resources */,
+				897A6EDB21F6BF690072C976 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -123,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				897A6EC821F54F220072C976 /* LaunchScreen.storyboard in Resources */,
+				897A6ED921F6BC890072C976 /* bigbang.json in Resources */,
 				897A6EC521F54F220072C976 /* Assets.xcassets in Resources */,
 				897A6EC321F54F200072C976 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897A6EDE21F6D4BF0072C976 /* StringExtension.swift in Sources */,
 				897A6EC021F54F200072C976 /* ViewController.swift in Sources */,
 				897A6EBE21F54F200072C976 /* AppDelegate.swift in Sources */,
+				897A6EE421F7004B0072C976 /* BigBangTableViewCell.swift in Sources */,
+				897A6EE221F6FF090072C976 /* DetailViewController.swift in Sources */,
+				897A6EE021F6F4950072C976 /* Episode.swift in Sources */,
+				897A6ED721F5B8F20072C976 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +361,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4LJ2YC4BS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntroExample",
+				);
 				INFOPLIST_FILE = IntroExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +383,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4LJ2YC4BS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntroExample",
+				);
 				INFOPLIST_FILE = IntroExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
